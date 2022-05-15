@@ -1,7 +1,7 @@
 .video{
     margin-bottom: 40px;
     width: 270px;
-    background-color: red;
+    background-color: #E9EFC0;
 }
 
 .video__thumbnail{
@@ -32,7 +32,7 @@
 .tags > p{
     margin-right: 10px;
     font-size: 12px;
-    background-color: blue;
+    background-color: #B4E197;
     border-radius: 30px;
     padding: 5px 10px;
     margin-bottom: 5px;

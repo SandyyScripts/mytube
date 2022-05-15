@@ -14,7 +14,7 @@ function Header(props) {
 				<MenuIcon />
 				<Link to="/">
 					<img
-						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9q-mpIxzHf0TINtRYg3DNQgzNVdEwgbQwWQkEFc6EyzgKXBArf_1YxhY5zQKrh6bgpZA&usqp=CAU"
+						src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Star%2A.svg/2234px-Star%2A.svg.png"
 						alt="MYTUBE LOGO"
 						className="header__logo"
 					/>

@@ -2,7 +2,7 @@ import React from "react";
 import ReactPlayer from "react-player/lazy";
 import "./Video.css";
 
-function Video({ heading, text, video, first, second }) {
+function Video({ heading, text, video, first, second, third }) {
 	return (
 		<div className="video">
 			<ReactPlayer
@@ -18,6 +18,7 @@ function Video({ heading, text, video, first, second }) {
 				<div className="tags">
 					<p>{first}</p>
 					<p>{second}</p>
+					<p>{third}</p>
 				</div>
 			</div>
 		</div>

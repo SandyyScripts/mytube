@@ -1,3 +1,7 @@
 .sidebar{
     flex: 0.2;
+    background-color: #83BD75;
+}
+.sidebar > a{
+    text-decoration: none;
 }

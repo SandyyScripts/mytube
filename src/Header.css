@@ -6,7 +6,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: white;
+    background-color: #4E944F;
 }
 
 .header__logo{
@@ -20,6 +20,7 @@
     align-items: center;
     width: 40%;
     border: 1px solid black;
+    
 }
 
 .header__icons{
@@ -27,16 +28,31 @@
     align-items: center;
 }
 
+.header__i{ 
+    margin-right: 10px;
+}
+
 .header__input > input{
     flex: 1;
     border: none;
+    background-color: #4E944F !important;
+}
+.header__input ::-webkit-input-placeholder { 
+    color: black;
+}
+.header__input ::-moz-placeholder { 
+    color: black;
+}
+.header__input ::-moz-placeholder  { 
+    color: black;
 }
 
 .header__inputbutton{
     width: 50px !important;
-    background-color: #fafafa;
-    border-left: 1px solid lightgray;
-    color: gray;
+    margin-top: 10px;
+    background-color: #4E944F;
+    border-left: 1px solid #4E944F;
+    color: black;
 }
 
 .header__icon{

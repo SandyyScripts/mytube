@@ -1,9 +1,19 @@
 .searchvideos{
     flex: 0.8;
-    background-color: #f9f9f9;
-    padding: 20px 20px;
+    background-color: #B4E197;
+    padding: 40px 20px;
+    padding-bottom: 0;
 }
 
-.heading > h2{
-    margin-left: 10px;
+.searchvideos > h2{
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+
+.searchvideo__results{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
