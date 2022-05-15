@@ -1,0 +1,25 @@
+.sidebar__icon{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.sidebar__iconone{
+    color: #606060;
+    font-size: large !important;
+}
+
+.sidebar__title{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sidebar__icon:hover{
+   background-color: lightgray;
+   cursor: pointer;
+}
+
+.sidebar__icon:hover > .sidebar__iconone{
+    color: red;
+}

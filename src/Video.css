@@ -1,0 +1,40 @@
+.video{
+    margin-bottom: 40px;
+    width: 270px;
+    background-color: red;
+}
+
+.video__thumbnail{
+    height: 140px;
+    width: 250px;
+}
+
+.video__info{
+    margin-top: 10px;
+    padding-right: 30px;
+    margin-left: 15px;
+}
+
+.video__info > h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.video__info > p{
+    font-size: 14px;
+    color: gray;
+    overflow-wrap: break-word;
+}
+
+.tags{
+    display: flex;
+}
+.tags > p{
+    margin-right: 10px;
+    font-size: 12px;
+    background-color: blue;
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
